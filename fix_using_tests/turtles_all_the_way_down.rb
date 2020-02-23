@@ -11,8 +11,6 @@ end
 def turtle_traits(turtles)
   trait_array = []
   turtles.map do |turtle|
-    turtle.map do |trait|
-      trait_array << trait[:traits]
-    end
+    trait_array << turtle[:traits]
   end
 end
