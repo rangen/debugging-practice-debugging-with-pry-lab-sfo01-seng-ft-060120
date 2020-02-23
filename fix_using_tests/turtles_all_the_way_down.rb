@@ -13,4 +13,5 @@ def turtle_traits(turtles)
   turtles.each{|turtle|
     trait_array << turtle[:traits]
   }
+  trait_array
 end
